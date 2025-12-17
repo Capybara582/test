@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let spisok3=[2,'a','b','c',15]
+        function func (spisok){
+            let spisok1=[]
+            for (let i=0;i<spisok.length;i++){
+                if (typeof spisok[i]==="number"){
+                    spisok1.push(spisok[i])
+                }
+            }
+            return spisok1
+        }
+        let w=func(spisok3)
+        console.log(w)
+    </script>
+</body>
+</html>
